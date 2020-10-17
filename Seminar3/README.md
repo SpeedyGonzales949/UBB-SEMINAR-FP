@@ -1,4 +1,4 @@
-# UBB-SEMINAR-FP
+# UBB-SEMINAR-FP-3
 1.Schreiben Sie eine Funktion, die eine Zahl und eine Liste von positiven Zahlen als Parameter bekommt undprüft, ob die Summe von zwei beliebigen Zahlen der Liste der Zahl entspricht.
 
 2.Gegeben seien zwei große Zahlen, die als Strings gespeichert sind. Schreiben Sie eine Funktion, die dieSumme dieser beiden Zahlen berechnet und es als String zurückgibt.Beispiel:a = “1234556544345”b = “2343234”big_sum(a,b) -> “1234558887579”
