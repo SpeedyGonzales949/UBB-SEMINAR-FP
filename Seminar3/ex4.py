@@ -1,4 +1,23 @@
 def find_word(matrix,word,i,j,num,beforeI,beforeJ):
+    '''
+
+  Rekursive Funtion
+  input:
+  matrix voll von Buchstaben,
+  word=Wort, den wir suchen,
+  i,j-Current position einer Buchstabe des Wortes
+  num-reprasentiert welche der Buchstabe der Wort wir suchen
+  beforeI,beforeJ-vorige Position, damit wir nicht die selbe Buchstabe zwei mal nehmen
+
+    output:
+    boolean = ob wir das Wort gefunden haben oder nicht
+
+   wie funktioniert?
+   da wir die Position der current Buchstabe als Parameter haben,
+   suchen wir die nachste - mogliche Position: rechts,links,oben,unter
+
+   Wenn num die Lange unseres Wortes enthalt, wissen wir, dass die Matrix unseres Wort enthalt.
+   '''
     if num==len(word):
         print (True)
     else:
